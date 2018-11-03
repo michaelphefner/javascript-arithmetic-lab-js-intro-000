@@ -13,6 +13,8 @@ function multiply(one, two){
     return one * two;
   }
 }
-function divide(){
-
+function divide(one, two){
+  if((parseInt(one, 10) != 'NaN') && (parseInt(two, 10) != 'NaN'){
+    return add / two;
+  }
 }
