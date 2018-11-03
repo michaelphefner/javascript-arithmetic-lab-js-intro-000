@@ -8,8 +8,10 @@ function subtract(one, two){
     return  two - one;
   }
 }
-function multiply(){
-
+function multiply(one, two){
+  if((parseInt(one, 10) != 'NaN') && (parseInt(two, 10) != 'NaN'){
+    return one * two;
+  }
 }
 function divide(){
 
