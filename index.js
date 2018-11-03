@@ -18,3 +18,13 @@ function divide(one, two){
     return add / two;
   }
 }
+function inc(n){
+  return n++;
+}
+function dec(n){
+  return dec--;
+}
+function makeInt(n){
+  let number = parseInt(n, 10);
+  return number;
+}
