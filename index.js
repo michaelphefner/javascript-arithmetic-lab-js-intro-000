@@ -22,7 +22,7 @@ function inc(n){
   return n++;
 }
 function dec(n){
-  return dec--;
+  return n--;
 }
 function makeInt(n){
   let number = parseInt(n, 10);
