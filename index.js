@@ -1,11 +1,11 @@
 function add(one, two){
   // if((parseInt(one, 10) != 'NaN') && (parseInt(two, 10) != 'NaN')){
-    return add + two;
+    return one + two;
   // }
 }
 function subtract(one, two){
   // if((parseInt(one, 10) != 'NaN') && (parseInt(two, 10) != 'NaN')){
-    return  two - one;
+    return  one - two;
   // }
 }
 function multiply(one, two){
@@ -15,7 +15,7 @@ function multiply(one, two){
 }
 function divide(one, two){
   // if((parseInt(one, 10) != 'NaN') && (parseInt(two, 10) != 'NaN')){
-    return add / two;
+    return one / two;
   // }
 }
 function inc(n){
