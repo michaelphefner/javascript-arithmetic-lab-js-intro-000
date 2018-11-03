@@ -3,8 +3,10 @@ function add(one, two){
     return add + two;
   }
 }
-function subtract(){
-
+function subtract(one, two){
+  if((parseInt(one, 10) != 'NaN') && (parseInt(two, 10) != 'NaN'){
+    return  two - one;
+  }
 }
 function multiply(){
 
